@@ -95,7 +95,7 @@ nav {
     font-size: 20px;
 }
 
-.bodyTextHome, .bodyTextProjects, .bodyTextOther {
+.bodyTextHome, .bodyTextOther, .bodyTextWork {
     margin-top: 97px;
     padding: 5%;
     flex: 100;
@@ -106,14 +106,14 @@ nav {
     grid-gap: 4em 0em;
 }
 
-.bodyTextWork {
-    margin-top:97px;
+.bodyTextProjects {
+    margin-top: 97px;
     padding: 5%;
     flex: 100;
     background-color: hsl(0, 0%, 10%);
     display:grid;
     grid-template-columns: repeat(3, 33.3333%);
-    grid-template-rows: repeat(2, 300px);
+    grid-template-rows: repeat(3, 800px);
     grid-gap: 4em 0em;
 }
 
@@ -124,7 +124,7 @@ nav {
     background-color: hsl(0, 0%, 20%);
     grid-column: span 1;
     grid-row: span 1;
-    font-size: 50px;
+    font-size: 45px;
     font-weight:bold;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -132,7 +132,7 @@ nav {
 
 .sec1 p, .sec2 p, .sec3 p{
     border-right: solid;
-    padding: 50px
+    padding: 30px
 }
 
 .sec1Text, .sec2Text, .sec3Text {
@@ -142,9 +142,20 @@ nav {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     display:flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     padding: 100px;
     font-size: 20px
+}
+
+.multLines{
+    margin-top: 10px;
+}
+
+.projectsSec {
+    display:flex;
+    justify-content: top;
+    font-size:30px;
 }
 
 img.homeImg {
