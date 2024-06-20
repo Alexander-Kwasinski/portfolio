@@ -95,7 +95,7 @@ nav {
     font-size: 20px;
 }
 
-.bodyTextHome, .bodyTextOther, .bodyTextWork {
+.bodyTextHome, .bodyTextWork {
     margin-top: 97px;
     padding: 5%;
     flex: 100;
@@ -117,6 +117,17 @@ nav {
     grid-gap: 4em 0em;
 }
 
+.bodyTextOther {
+    margin-top: 97px;
+    padding: 5%;
+    flex: 100;
+    background-color: hsl(0, 0%, 10%);
+    display:grid;
+    grid-template-columns: repeat(3, 33.3333%);
+    grid-template-rows: 300px 500px 300px;
+    grid-gap: 4em 0em;
+}
+
 .sec1, .sec2, .sec3 {
     display: flex;
     flex-direction: column;
@@ -124,7 +135,7 @@ nav {
     background-color: hsl(0, 0%, 20%);
     grid-column: span 1;
     grid-row: span 1;
-    font-size: 45px;
+    font-size: 35px;
     font-weight:bold;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -144,7 +155,7 @@ nav {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px;
+    padding: 50px;
     font-size: 20px
 }
 
@@ -156,6 +167,14 @@ nav {
     display:flex;
     justify-content: top;
     font-size:30px;
+}
+
+.otherSec1 p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.otherSec2 p {
+    font-size: 16px;
 }
 
 img.homeImg {
