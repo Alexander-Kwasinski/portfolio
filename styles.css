@@ -95,7 +95,18 @@ nav {
     font-size: 20px;
 }
 
-.bodyTextHome, .bodyTextWork {
+.bodyTextHome { 
+    margin-top: 97px;
+    padding: 5%;
+    flex: 100;
+    background-color: hsl(0, 0%, 10%);
+    display:grid;
+    grid-template-columns: repeat(3, 33.3333%);
+    grid-template-rows: 300px 300px 350px;
+    grid-gap: 4em 0em;
+}
+
+.bodyTextWork {
     margin-top: 97px;
     padding: 5%;
     flex: 100;
@@ -177,10 +188,21 @@ nav {
     font-size: 16px;
 }
 
-img.homeImg {
-    grid-column: span 1;
-    grid-row: span 1;
+.homeImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(0, 0%, 20%);
+    border-radius: 50px;
+    grid-column: span 3;
+    grid-row: span 1;
+    padding: 20px;
+}
+
+.homeImg img {
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .footerContainer p {
