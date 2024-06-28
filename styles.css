@@ -259,6 +259,22 @@ nav {
         grid-row-gap: 1em;
         margin-top: 60px;
     }
+
+    .bodyTextHome {
+        grid-template-rows: 200px 200px 200px;
+    }
+
+    .bodyTextWork {
+        grid-template-rows: repeat(3, 200px);
+    }
+
+    .bodyTextOther {
+        grid-template-rows: 300px 500px 200px;
+    }
+
+    .bodyTextProjects {
+        margin-top: 60px;
+    }
     
     .sec1, .sec2, .sec3 {
         font-size: 16px;
@@ -308,5 +324,53 @@ nav {
     }
     .footerContainer {
         font-size: 10px;
+    }
+}
+
+@media  screen and (min-width: 701px) and (max-width: 1000px) {
+    .headerContainer {
+        font-size: 13px;
+    }
+
+    nav {
+        font-size: 17px;
+    }
+
+    .sec1, .sec2, .sec3 {
+        font-size: 27px;
+    }
+
+    .sec1 p, .sec2 p, .sec3 p{
+        padding: 13px;
+    }
+    
+    .sec1Text, .sec2Text, .sec3Text {
+        font-size: 15px;
+        padding: 18px;
+    }
+    
+    .projectsSec {
+        font-size: 20px;
+    }
+    
+    .otherSec1 p{
+        font-size: 15px;
+    }
+    .otherSec2 p {
+        font-size: 14px;
+    }
+
+    .tallImg, .tallVid {
+        max-width: 25%;
+        width:auto;
+        max-height: 70%;
+        height:auto;
+    }
+
+    .wideImg {
+        max-width: 40%;
+        width:auto;
+        max-height: 55%;
+        height:auto;
     }
 }
