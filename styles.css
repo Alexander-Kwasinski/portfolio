@@ -243,11 +243,69 @@ nav {
     align-items: center;
     justify-content: space-around;
     background-color: hsl(0, 0%, 15%); 
-    opacity: 85%;
+    opacity: 100%;
 }
 
-.footerContainer i {
-    color: white;
+@media screen and (max-width: 700px) {
+    .headerContainer {
+        font-size: 10px;
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    .bodyTextHome, .bodyTextOther, .bodyTextWork {
+        grid-row-gap: 1em;
+    }
+    
+    .sec1, .sec2, .sec3 {
+        font-size: 16px;
+    }
+
+    .sec1 p, .sec2 p, .sec3 p{
+        padding: 10px;
+    }
+    
+    .sec1Text, .sec2Text, .sec3Text {
+        font-size: 10px;
+        padding: 15px;
+    }
+    
+    .projectsSec {
+        font-size: 14px;
+    }
+    
+    .otherSec1 p{
+        font-size: 11px;
+    }
+    .otherSec2 p {
+        font-size: 10px;
+    }
+
+    .tallImg, .tallVid {
+        max-width: 25%;
+        width:auto;
+        max-height: 70%;
+        height:auto;
+    }
+
+    .wideImg {
+        max-width: 40%;
+        width:auto;
+        max-height: 55%;
+        height:auto;
+    }
+        
+    .secMedia {
+        height: auto;
+        width: auto;
+    }
+    
+    .footerContainer p {
+        font-size: 15px;
+    }
+    .footerContainer {
+        font-size: 10px;
+    }
 }
-
-
