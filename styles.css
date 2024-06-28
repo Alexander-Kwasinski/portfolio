@@ -301,16 +301,16 @@ nav {
     }
 
     .tallImg, .tallVid {
-        max-width: 25%;
+        max-width: 30%;
         width:auto;
-        max-height: 50%;
+        max-height: 60%;
         height:auto;
     }
 
     .wideImg {
-        max-width: 40%;
+        max-width: 42.5%;
         width:auto;
-        max-height: 45%;
+        max-height: 50%;
         height:auto;
     }
         
