@@ -257,6 +257,7 @@ nav {
 
     .bodyTextHome, .bodyTextOther, .bodyTextWork {
         grid-row-gap: 1em;
+        margin-top: 60px;
     }
     
     .sec1, .sec2, .sec3 {
@@ -298,8 +299,8 @@ nav {
     }
         
     .secMedia {
-        height: auto;
-        width: auto;
+        padding-bottom: 0px;
+        margin-bottom: 1em;
     }
     
     .footerContainer p {
